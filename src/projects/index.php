@@ -11,16 +11,19 @@
         <th width="200" nowrap="nowrap" align="left">NAME</th>
         <th width="100%" align="left">DESCRIPTION</th>
     </tr>
-    <tr>
+    
+        <?php
+            $result = $connection->query('SELECT id, name, description FROM tm.tm_project; ');
+            while($row = $result->fetch_object()){
+        ?>
+        <tr>
         <td align="center">01.</td>
-        <td align="left">DEMO</td>
-        <td align="left">DEMO PROJECT...</td>
-    </tr>
-    <tr>
-        <td align="center">02.</td>
-        <td align="left">TEST</td>
-        <td align="left">TEST PROJECT...</td>
-    </tr>
+        <td align="left"><?php echo $row->name; ?></td>
+        <td align="left"><?php echo $row->description; ?></td>
+        </tr>              
+        <?php
+            }
+        ?>
 </table>        
 
 <?php include '../include/footer.php';?>
