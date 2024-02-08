@@ -1,6 +1,6 @@
 <html>
     <HEAD>
-        <title>MAIN | TASK MANAGER</title>
+        <title><?php echo TITLE; ?> | TASK MANAGER</title>
         <style>
             h1 {
                 pading: 0;
@@ -16,8 +16,7 @@
             table {
                 border-collapse: collapse;
             }
-        </style>
-    
+        </style>    
     </HEAD>
     <BODY>
     <table width="100%" height="100%" border="0">

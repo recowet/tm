@@ -1,3 +1,4 @@
+<?php define('TITLE', 'ABOUT'); ?>
 <?php include '../include/header.php';?>
             
             <h2>ABOUT</h2>

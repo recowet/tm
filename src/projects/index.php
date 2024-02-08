@@ -1,3 +1,6 @@
+<?php define('TITLE', 'PROJECTS'); ?>
+<?php include '../config/settings.php'; ?>
+<?php include '../include/database.php'; ?>
 <?php include '../include/header.php';?>
             
 <h2>PROJECTS</h2>   
@@ -8,7 +11,6 @@
         <th width="200" nowrap="nowrap" align="left">NAME</th>
         <th width="100%" align="left">DESCRIPTION</th>
     </tr>
-
     <tr>
         <td align="center">01.</td>
         <td align="left">DEMO</td>

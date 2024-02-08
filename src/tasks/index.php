@@ -1,3 +1,6 @@
+<?php define('TITLE', 'TASKS'); ?>
+<?php include './config/settings.php'; ?>
+<?php include './include/database.php'; ?>
 <?php include '../include/header.php';?>
             
  <h2>TASKS</h2>   
