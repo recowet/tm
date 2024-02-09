@@ -24,7 +24,9 @@
         <td align="left"><?php echo $row->name; ?></td>
         <td align="left"><?php echo $row->description; ?></td>
         <td align="center">
-        <img src="/image/edit.png" width="32"/>
+        <a href="/project/edit/?id=<?php echo $row->id; ?>">
+                <img src="/image/edit.png" width="32"/>
+            </a>
         </td>
         <td align="center">
             <form name="formDelete<?php echo $row->id; ?>" action="/project/delete/" method="POST" style="display:none;">

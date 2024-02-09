@@ -5,6 +5,6 @@
             
             <h2>MAIN</h2>   
 
-<?php echo 'VALUE: ' . TITLE; ?>
+<h3>WELCOME TO TASK MANAGER</h3>
 
 <?php include './include/footer.php';?>
