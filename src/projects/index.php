@@ -28,8 +28,7 @@
             </form>
             <a href="#" onclick="document.forms['formDelete<?php echo $row->id; ?>'].submit();">
                 <img src="/image/trash.png" width="32"/>
-            </a>
-            
+            </a>            
         </td>
         </tr>              
         <?php
